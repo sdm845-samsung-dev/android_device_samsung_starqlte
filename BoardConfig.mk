@@ -8,3 +8,6 @@
 include device/samsung/sdm845-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/starqlte
+
+# Kernel
+TARGET_KERNEL_CONFIG := lineage_starqlte_defconfig
